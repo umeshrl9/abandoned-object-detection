@@ -53,7 +53,7 @@ The pipeline follows these steps:
 ##  How to Run
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/umeshrl9/abandoned-object-detection.git
 cd abandoned-object-detection
 pip install cv2 numpy time ultralytics
 python main.py

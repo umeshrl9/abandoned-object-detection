@@ -1,6 +1,6 @@
 # Abandoned Object Detection Pipeline
 
-This repository contains Abandoned Object Detection project developed by **Group 27 (Umesh Kashyap, 2023UCS1693 and Yash Aggarwal, 2023UCS1698)** that detects abandoned objects in surveillance videos.  
+This repository contains Abandoned Object Detection project developed by **Group 327 (Umesh Kashyap, 2023UCS1693 and Yash Aggarwal, 2023UCS1698)** that detects abandoned objects in surveillance videos.  
 The system uses **YOLO11n for pedestrian detection** and combines it with **classical computer vision, temporal tracking, and spatial analysis** to identify unattended objects.
 
 Unlike fully deep learning-based approaches, this pipeline relies on **mathematical logic and background modeling**, using deep learning only for detecting humans.

@@ -1,13 +1,13 @@
 # Abandoned Object Detection Pipeline
 
-This repository contains a **college project** developed by **Group 27** that detects abandoned objects in surveillance videos.  
+This repository contains Abandoned Object Detection project developed by **Group 27 (Umesh Kashyap, 2023UCS1693 and Yash Aggarwal, 2023UCS1698)** that detects abandoned objects in surveillance videos.  
 The system uses **YOLO11n for pedestrian detection** and combines it with **classical computer vision, temporal tracking, and spatial analysis** to identify unattended objects.
 
 Unlike fully deep learning-based approaches, this pipeline relies on **mathematical logic and background modeling**, using deep learning only for detecting humans.
 
 ---
 
-## 📌 Features
+## Features
 
 - YOLO11n-based pedestrian detection  
 - Dual background subtraction (short-term & long-term)  
@@ -20,7 +20,7 @@ Unlike fully deep learning-based approaches, this pipeline relies on **mathemati
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 The pipeline follows these steps:
 
@@ -38,7 +38,7 @@ The pipeline follows these steps:
 
 ---
 
-## 🧠 Techniques Used
+##  Techniques Used
 
 - YOLO11n (Human Detection Only)  
 - Background Subtraction (KNN)  
@@ -50,31 +50,10 @@ The pipeline follows these steps:
 
 ---
 
-## 📊 Parameters
-
-| Parameter | Value |
-|-----------|-------|
-| Abandonment Time | 5 seconds |
-| Minimum Object Area | 500 pixels |
-| Owner Distance Threshold | 300 pixels |
-| Stability Frames | 30 frames |
-| Illumination Threshold | 30% frame area |
-
----
-
-## 🛠️ Tech Stack
-
-- Python  
-- OpenCV  
-- NumPy  
-- Ultralytics YOLO11n  
-
----
-
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 git clone <repository-link>
 cd abandoned-object-detection
-pip install -r requirements.txt
+pip install cv2 numpy time ultralytics
 python main.py

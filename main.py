@@ -3,7 +3,7 @@ import numpy as np
 import time
 from ultralytics import YOLO
 
-VIDEO_PATH = "Dataset/ABODA/video2.avi" #Path of video to be tested
+VIDEO_PATH = "Dataset/ABODA/video1.avi" #Path of video to be tested
 ABANDON_TIME = 5  
 MIN_AREA = 500
 
